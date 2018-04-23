@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/api/dtos"
+	"github.com/p0hil/grafana/pkg/bus"
+	m "github.com/p0hil/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/plugins"
+	"github.com/p0hil/grafana/pkg/setting"
 )
 
 func setIndexViewData(c *m.ReqContext) (*dtos.IndexViewData, error) {

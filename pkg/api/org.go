@@ -1,12 +1,12 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/metrics"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/p0hil/grafana/pkg/api/dtos"
+	"github.com/p0hil/grafana/pkg/bus"
+	"github.com/p0hil/grafana/pkg/metrics"
+	m "github.com/p0hil/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/util"
 )
 
 // GET /api/org

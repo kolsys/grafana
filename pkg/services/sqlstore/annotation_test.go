@@ -5,8 +5,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/annotations"
+	"github.com/p0hil/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/services/annotations"
 )
 
 func TestSavingTags(t *testing.T) {

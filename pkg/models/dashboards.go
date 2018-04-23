@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/gosimple/slug"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/components/simplejson"
+	"github.com/p0hil/grafana/pkg/setting"
 )
 
 // Typed errors

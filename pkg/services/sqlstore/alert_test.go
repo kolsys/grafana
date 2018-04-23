@@ -3,8 +3,8 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/components/simplejson"
+	m "github.com/p0hil/grafana/pkg/models"
 	. "github.com/smartystreets/goconvey/convey"
 	"time"
 )

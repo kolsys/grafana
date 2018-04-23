@@ -1,10 +1,10 @@
 package commands
 
 import (
-	"github.com/grafana/grafana/pkg/cmd/grafana-cli/logger"
-	m "github.com/grafana/grafana/pkg/cmd/grafana-cli/models"
-	s "github.com/grafana/grafana/pkg/cmd/grafana-cli/services"
 	"github.com/hashicorp/go-version"
+	"github.com/p0hil/grafana/pkg/cmd/grafana-cli/logger"
+	m "github.com/p0hil/grafana/pkg/cmd/grafana-cli/models"
+	s "github.com/p0hil/grafana/pkg/cmd/grafana-cli/services"
 )
 
 func ShouldUpgrade(installed string, remote m.Plugin) bool {

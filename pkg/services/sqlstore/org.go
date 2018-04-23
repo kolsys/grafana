@@ -3,9 +3,9 @@ package sqlstore
 import (
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/events"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/bus"
+	"github.com/p0hil/grafana/pkg/events"
+	m "github.com/p0hil/grafana/pkg/models"
 )
 
 func init() {

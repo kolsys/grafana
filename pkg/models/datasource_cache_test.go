@@ -6,9 +6,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/p0hil/grafana/pkg/components/simplejson"
+	"github.com/p0hil/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/util"
 )
 
 func TestDataSourceCache(t *testing.T) {

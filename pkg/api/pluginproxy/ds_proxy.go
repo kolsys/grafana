@@ -17,11 +17,11 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/p0hil/grafana/pkg/log"
+	m "github.com/p0hil/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/plugins"
+	"github.com/p0hil/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/util"
 )
 
 var (

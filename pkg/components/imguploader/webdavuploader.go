@@ -11,7 +11,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/p0hil/grafana/pkg/util"
 )
 
 type WebdavUploader struct {

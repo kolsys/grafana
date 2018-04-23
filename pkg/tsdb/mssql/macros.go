@@ -8,7 +8,7 @@ import (
 
 	"strconv"
 
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/p0hil/grafana/pkg/tsdb"
 )
 
 const rsIdentifier = `([_a-zA-Z0-9]+)`

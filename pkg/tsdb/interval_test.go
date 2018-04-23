@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/setting"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/grafana/grafana/pkg/components/securejsondata"
+	"github.com/p0hil/grafana/pkg/components/securejsondata"
 )
 
 var (

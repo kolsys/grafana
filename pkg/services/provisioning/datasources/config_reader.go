@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/grafana/grafana/pkg/log"
+	"github.com/p0hil/grafana/pkg/log"
 	"gopkg.in/yaml.v2"
 )
 

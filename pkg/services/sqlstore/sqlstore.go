@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/annotations"
-	"github.com/grafana/grafana/pkg/services/sqlstore/migrations"
-	"github.com/grafana/grafana/pkg/services/sqlstore/migrator"
-	"github.com/grafana/grafana/pkg/services/sqlstore/sqlutil"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/p0hil/grafana/pkg/bus"
+	"github.com/p0hil/grafana/pkg/log"
+	m "github.com/p0hil/grafana/pkg/models"
+	"github.com/p0hil/grafana/pkg/services/annotations"
+	"github.com/p0hil/grafana/pkg/services/sqlstore/migrations"
+	"github.com/p0hil/grafana/pkg/services/sqlstore/migrator"
+	"github.com/p0hil/grafana/pkg/services/sqlstore/sqlutil"
+	"github.com/p0hil/grafana/pkg/setting"
 
 	"github.com/go-sql-driver/mysql"
 	_ "github.com/go-sql-driver/mysql"
@@ -25,7 +25,7 @@ import (
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
 
-	_ "github.com/grafana/grafana/pkg/tsdb/mssql"
+	_ "github.com/p0hil/grafana/pkg/tsdb/mssql"
 )
 
 type DatabaseConfig struct {

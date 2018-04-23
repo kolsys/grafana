@@ -8,7 +8,7 @@ import (
 	_ "github.com/go-macaron/session/memcache"
 	_ "github.com/go-macaron/session/postgres"
 	_ "github.com/go-macaron/session/redis"
-	"github.com/grafana/grafana/pkg/log"
+	"github.com/p0hil/grafana/pkg/log"
 	"gopkg.in/macaron.v1"
 )
 
@@ -106,7 +106,7 @@ type SessionWrapper struct {
 }
 
 func (s *SessionWrapper) Start(c *macaron.Context) error {
-	// See https://github.com/grafana/grafana/issues/11155 for details on why
+	// See https://github.com/p0hil/grafana/issues/11155 for details on why
 	// a recover and retry is needed
 	defer func() error {
 		if err := recover(); err != nil {
